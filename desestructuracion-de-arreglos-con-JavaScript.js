@@ -6,7 +6,7 @@
 
 
 /** Recordemos que un Array se define dentro de corchetes ['a', 'b', 7, 0.5, true,'Urian'] 
- * y un objeto con llaves {'a':2, 'b':'soy b'} 
+ *  y un objeto con llaves {'a':2, 'b':'soy b'} 
  *  los elementos dentro del mismo pueden ser de tipo;
  *  String, numeros(Number), boolean(true, false), enteros(INT), float, Decimales, Object, null, etc.. 
 */
@@ -16,14 +16,14 @@ let MarcasCarros = ['Ferrari','BMW','Mercedes-Benz','Tesla','Audi'];
 console.log(Array.isArray(MarcasCarros)); //Comprobamos si es un Array con el Método Array.isArray
 console.log(MarcasCarros.length) //Comprobamos la longitud del Array con la propiedad length
 
-//https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/let
 //var - let y const son palabra reservada que definen un tipo de variable OK
 
 //La forma ordinaria de obtener elementos de un Arrray seria usando la posición del mismo.
 let primerElemento = MarcasCarros[0] //Obtenemos el primer elemento de Array atraves de su posición
 let ultimoElemento = MarcasCarros[MarcasCarros.length - 1] //Obtenemos último elemento del Arrray con la propiedad length
 
-// La forma moderna de obtener elementos de un Array seria declarando variables [let a, const b] y asignandolas ha elementos del Array
+// La forma moderna de obtener elementos de un Array seria declarando
+// variables [let a, const b, var] y asignandolas ha elementos del Array
 const [f, t, u, i, h] = MarcasCarros;
 console.log(f);
 console.log(t);
@@ -46,7 +46,7 @@ console.log(`a: ${a} y b: ${b}`);
 let numeros = ['uno', 'dos','tres'];
 [a, b, c] = numeros;
 /**Cuál será el resultado ? */
-console.log(`a: ${a}, b: ${b} y c${c}`);
+console.log(`a: ${a}, b: ${b} y c: ${c}`);
 console.log(a);
 console.log(b);
 console.log(c);
