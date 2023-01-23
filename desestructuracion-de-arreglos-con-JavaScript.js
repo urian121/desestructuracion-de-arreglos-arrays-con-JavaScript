@@ -1,11 +1,12 @@
 /**
- * Ejemplos para la Desestructuración de un Array - Arreglo [] con JavaScript, la misma permite desempacar (separar)
- * valores de arreglos o propiedades de objetos en distintas variables
+ * Ejemplos para la Desestructuración de un Array - Arreglo [] con JavaScript, 
+ * la misma permite desempacar (separar)
+ * valores de arreglos o propiedades de objetos en distintas variables.
 */
 
-//https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array
 
-/** Recordemos que un Array se define dentro de corchetes ['a', 'b', 7, 0.5, true,'Urian'] y un objeto con llaves {'a':2, 'b':'soy b'} 
+/** Recordemos que un Array se define dentro de corchetes ['a', 'b', 7, 0.5, true,'Urian'] 
+ * y un objeto con llaves {'a':2, 'b':'soy b'} 
  *  los elementos dentro del mismo pueden ser de tipo;
  *  String, numeros(Number), boolean(true, false), enteros(INT), float, Decimales, Object, null, etc.. 
 */
@@ -16,7 +17,7 @@ console.log(Array.isArray(MarcasCarros)); //Comprobamos si es un Array con el M�
 console.log(MarcasCarros.length) //Comprobamos la longitud del Array con la propiedad length
 
 //https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/let
-//var - let y const son palabra reservada que definen un tipo de variable 
+//var - let y const son palabra reservada que definen un tipo de variable OK
 
 //La forma ordinaria de obtener elementos de un Arrray seria usando la posición del mismo.
 let primerElemento = MarcasCarros[0] //Obtenemos el primer elemento de Array atraves de su posición
